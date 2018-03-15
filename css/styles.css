@@ -1,3 +1,38 @@
+.nav-link a {
+  color: red;
+}
+
+.nav-link {
+  color: white
+}
+.btn-link {
+  color: white;
+}
+
+.btn {
+  color: white;
+}
+
+.dropdown-menu a:hover, .dropdown-menu a:focus {
+  background-color: #2980B9;
+  color: white;
+}
+
+
+.dropdown-menu a, {
+  position: absolue;
+  color: red;
+}
+
+.navbar-brand > a{
+  color: white;
+}
+
+#dropdownMenuButton {
+  background-color: black;
+  color: white;
+}
+/*
 /* .story-title .lead {
     font-size: 25px;
     color: #fff;
@@ -13,7 +48,9 @@
 } */
 
 
-
+.header {
+  color: #343a40;
+}
 .navbar {
     background-color: black
 }
@@ -21,18 +58,18 @@
 .navbar-home {
     background-color: black;
     float: left;
-}
+} 
 
 /* Setting the color of the header elements */
 /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
-.header h1 {
+/* .header h1 {
     padding: 60px;
     margin: 0;
     color: rgb(55, 219, 219);
     /* text-align: center; */
-  }
+  /* } */
 
-.h1 {
+/* .h1 {
     color: rgb(55, 219, 219)
 }
 
@@ -42,29 +79,29 @@
 
 .h3 {
     color: rgb(55, 219, 219)
-}
+} */
 
 /* Styling the header, giving it a height, a background color, and some top padding */
-.header {
+/* .header {
     height: 200px;
     padding-top: 20px;
     background: #cdcdcd;
-  }
+  } */
 
   /* Getting rid of the default link styles here */
-.navbar li a {
-    color: #000;
+ /* .navbar li a {
+    color: white;
     text-decoration: none;
     list-style-type: none;
-  }
+  } */
 
-.navbar ul a {
+/* .navbar ul a {
     color: black;
     list-style-type: none;
-  }
+  } */
 /* The below code is for the drop down menu at top of the landing page (index.html) */
 /* Dropdown Button */
-.dropbtn {
+/* .dropbtn {
     background-color: white;
     color: black;
     padding: 0px;
@@ -72,79 +109,87 @@
     border: none;
     cursor: pointer;
     float: right;
-}
+} */
 
 /* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
+/* .dropbtn:hover, .dropbtn:focus {
     background-color: #2980B9;
-}
+} */
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
     display: inline-block;
     float: left;
-    padding-right: 20px;
+    padding-right: 0px;
+    color: blue
 }
 
+.btn btn-link 
+  position: relative;
+  display: inline-block;
+  float: left;
+  padding-right: 0px;
+  color: blue
+}
 /* Dropdown content (Hidden by default) */
-.dropdown-content {
+/* .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
-    overflow: auto;
+    overflow: auto; */
     /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
-    z-index: 1;
-}
+    /* z-index: 1;
+} */
 
 /* Links inside the dropdown */
-.dropdown-content a {
+/* .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-}
+} */
 
 /* Change color of dropdown links on hover */
-.dropdown a:hover {background-color: #ddd}
+/* .dropdown a:hover {background-color: #ddd} */
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
+/* .show {display:block;} */
 
 
 
 
-.navbar-collapse {
-    flex-basis: 100%;
-    flex-grow: 1;
+/* .navbar-collapse { */
+    /* flex-basis: 100%; */
+    /* flex-grow: 1; */
     /* For always expanded or extra full navbars, ensure content aligns itself
     properly vertically. Can be easily overridden with flex utilities. */
-    align-items: center;
-  }
+    /* align-items: center; */
+  /* } */
   
   /* Button for toggling the navbar when in its collapsed state */
-  .navbar-toggler {
+  /* .navbar-toggler {
     padding: navbar-toggler-padding-y navbar-toggler-padding-x;
     font-size: navbar-toggler-font-size;
     line-height: 1;
-    background-color: transparent; /* remove default button style */
-    border: border-width solid transparent; /* remove default button style */
+    background-color: transparent; remove default button style
+    border: border-width solid transparent; remove default button style */
     /* @include border-radius($navbar-toggler-border-radius); */
   
     /* @include hover-focus { */
-      text-decoration: none;
-    }
+      /* text-decoration: none;
+    } */
   
     /* // Opinionated: add "hand" cursor to non-disabled  */
-    .navbar-toggler elements:not(:disabled):not(.disabled) {
+    /* .navbar-toggler elements:not(:disabled):not(.disabled) {
       cursor: pointer;
-    }
+    } */
 
   
   /* // Keep as a separate element so folks can easily override it with another icon
   // or image file as needed. */
-  .navbar-toggler-icon {
+  /* .navbar-toggler-icon {
     display: inline-block;
     width: 1.5em;
     height: 1.5em;
@@ -152,7 +197,7 @@
     content: "";
     background: no-repeat center center;
     background-size: 100% 100%;
-  }
+  } */
   
   /* Generate series of `.navbar-expand-*` responsive classes for configuring
      where your navbar collapses. */
@@ -171,42 +216,41 @@
         } */
   
 
-    .navbar-expand {
+    /* .navbar-expand {
 /* include media-breakpoint-up ($next) { */
-      flex-flow: row nowrap;
-      justify-content: flex-start;
-    }
-
     .navbar-nav {
     flex-direction: row;
     }
 
-    .dropdown-menu {
-      position: absolute;
-    }
+
+    
+
 
 /* Reset the default from `.dropdown-menu` */
-    .dropdown-menu-right {
+    /* .dropdown-menu-right {
       right: 0;
       left: auto;
     }
 
     .nav-link {
-      padding-right: "";/* navbar-nav-link-padding-x; */
-      padding-left: "";/* navbar-nav-link-padding-x; */
-    }
+      padding-right: "";
+      padding-left: "";
+      cursor: pointer;
+      color: red;
+
+    } */
   
 
   /* For nesting containers, have to redeclare for alignment purposes */
-  .container, .container-fluid {
+  /* .container, .container-fluid {
     flex-wrap: nowrap;
   }
 
   .navbar-collapse {
-    display: flex !important; /* stylelint-disable-line declaration-no-important */
+    display: flex !important; stylelint-disable-line declaration-no-important */
 
 /* Changes flex-basis to auto because of an IE10 bug */
-    flex-basis: auto;
+    /* flex-basis: auto;
   }
 
   .navbar-toggler {
@@ -216,11 +260,11 @@
   .dropup {
       top: auto;
       bottom: 100%;
-  }
+  } */
 
 /* /* ----------------------------This is Bootstrap Code------------------/ */
 
-.box {
+/* .box {
   height: 400px;
   padding: 20px;
   color: #fff;
@@ -241,16 +285,16 @@
   padding-bottom: .75rem;
   background-color: rgba(86,61,124,.15);
   border: 5px solid rgb(213, 250, 6);
-}
-.col-md-4 p {
+} */
+/* .col-md-4 p {
   width: auto px;
   float: left;
   margin: 5px;
   padding: 5px;
   background-color: darkgreen;
-}
+} */
 /* https://webdesign.tutsplus.com/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984 */
-.col-md-8 {
+/* .col-md-8 {
   padding-top: .75rem;
   padding-bottom: .75rem;
   background-color: rgba(86,0,0,.15);
@@ -267,5 +311,5 @@
   padding-top: .75rem;
   padding-bottom: .75rem;
   background-color: rgba(0,0,255,.15);
-  border: 1px solid rgba(86,61,124,.2);
-}
+  border: 1px solid rgba(86,61,124,.2); 
+}*/
