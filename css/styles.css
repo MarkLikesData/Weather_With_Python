@@ -3,7 +3,7 @@
 }
 
 .nav-link {
-  color: white
+  color: #2980B9
 }
 .btn-link {
   color: white;
@@ -18,19 +18,19 @@
   color: white;
 }
 
-
+/* 
 .dropdown-menu a, {
   position: absolue;
   color: red;
 }
 
-.navbar-brand > a{
+/* .navbar-brand > a{
   color: white;
-}
+} */
 
 #dropdownMenuButton {
   background-color: black;
-  color: white;
+  color: #2980B9;
 }
 /*
 /* .story-title .lead {
@@ -125,7 +125,7 @@
     color: blue
 }
 
-.btn btn-link 
+.btn {
   position: relative;
   display: inline-block;
   float: left;
