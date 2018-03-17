@@ -37,34 +37,51 @@
     <div class="container">
         <div class="row">
             <!-- Adjust column widths as necessary for each page -->
-            <div class="col-md-7">
-                <h3>Comparison: Latitude vs X</h3>
-                <p>
-                    <img src="my_images/latitude_vs_max_temperature.png" alt="Lat. vs Temp." width="100" height="100" align="left" />
-                    The purpose of this project was to analyze how weather changes as you get closer to the equator.
-                    To accomplish this analysis, we first pulled data from the
-                    OpenWeatherMap API to assemble a dataset on over 500 cities.
-                    <br>
-                    <br>
-
-                    After assemblng the dataseet, we used Matplotlib to plot various aspects of the weather vs. latitude.
-                    Factors we looked at included: temperature, cloudiness, wind speed, and humidity.  This site provides
-                    the source data and visualizations created as part of the analysis, as well as explanations and 
-                    descriptions of any trends and correlations witnessed.
+            <div class="col-md-12">
+                <h1>Comparison: Latitude vs X</h1>
+                <p class="page_description">
+                    Click any plot to get an in-depth analysis.
                 </p>
-            </div>
-                <div class="col-md-1">
-                    </div>
-                        <div class="col-md-4">
-                        <h3>Visualizations</h3>
-                            <img src="my_images/latitude_vs_max_temperature.png" alt="Lat. vs Temp." width="100" height="100" align="top" />
-                            <img src="my_images/city_latitude_vs_cloudiness.png" alt="Lat. vs Temp." width="100" height="100" align="bottom" />
-                            <br />
-                            <img src="my_images/city_latitude_vs_humidity.png" alt="Lat. vs Temp." width="100" height="100" align="top" />
-                            <img src="my_images/city_latitude_vs_windspeed.png" alt="Lat. vs Temp." width="100" height="100" align="bottom" />
+
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">vs Cloudiness</h5>
+                            <a href="lat_vs_cloud.html"><img class="card-img-top" src="my_images\city_latitude_vs_cloudiness.png" alt="Cloudiness"></a>
+                        </div>
                         </div>
                     </div>
-                </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">vs Humidity</h5>
+                            <a href="lat_vs_humid.html"><img class="card-img-top" src="my_images\city_latitude_vs_humidity.png" alt="Cloudiness"></a>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">vs Max Temperature</h5>
+                            <a href="lat_vs_temp.html"><img class="card-img-top" src="my_images\latitude_vs_max_temperature.png" alt="Cloudiness"></a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">vs Wind Speed</h5>
+                            <a href="lat_vs_wind.html"><img class="card-img-top" src="my_images\city_latitude_vs_windspeed.png" alt="Cloudiness"></a>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+        
 
                 
 

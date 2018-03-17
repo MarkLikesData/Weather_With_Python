@@ -33,37 +33,67 @@
             <a class="nav-link" href="data.html">Data</a>
         </div>
     </header>
-
+    
+    <!-- <div class="row"> -->
     <div class="container">
-        <div class="row">
-            <div class="col-md-7">
-                <h3>Summary: Latitude vs. X</h3>
-                <p>
-                    <img src="my_images/latitude_vs_max_temperature.png" alt="Lat. vs Temp." width="100" height="100" align="left" />
-                    The purpose of this project was to analyze how weather changes as you get closer to the equator.
-                    To accomplish this analysis, we first pulled data from the
-                    OpenWeatherMap API to assemble a dataset on over 500 cities.
-                    <br>
-                    <br>
-
-                    After assemblng the dataseet, we used Matplotlib to plot various aspects of the weather vs. latitude.
-                    Factors we looked at included: temperature, cloudiness, wind speed, and humidity.  This site provides
-                    the source data and visualizations created as part of the analysis, as well as explanations and 
-                    descriptions of any trends and correlations witnessed.
-                </p>
+      <div class="row">
+        <div class="col-md-8">
+          <div class="card border-white"> <!-- style="width: 70%"> -->
+            <div class="card-body">
+              <h3 class="card-title"> Summary: Latitude vs. X</h3>
+              <p class="card-text">
+              <img src="my_images/latitude_vs_max_temperature.png" alt="Lat. vs Temp." width="200" height="200" align="left" />
+              The purpose of this project was to analyze how weather changes <br /><br />
+              as you get closer to the equator. To accomplish this analysis, <br /><br />
+              we first pulled data from the OpenWeatherMap API to assemble a <br /><br />
+              dataset on over 500 cities. After assemblng the dataseet, we used <br /><br />
+              Matplotlib to plot various aspects of the weather vs. latitude. <br /><br />
+              Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site<br /><br />
+              provides the source data and visualizations created as part of the analysis, as well as explanations <br /><br />
+              and descriptions of any trends and correlations witnessed. <br /><br />
+              </p>
             </div>
-                <div class="col-md-1">
-                    </div>
-                        <div class="col-md-4">
-                        <h3>Visualizations</h3>
-                            <img src="my_images/latitude_vs_max_temperature.png" alt="Lat. vs Temp." width="100" height="100" align="top" />
-                            <img src="my_images/city_latitude_vs_cloudiness.png" alt="Lat. vs Temp." width="100" height="100" align="bottom" />
-                            <br />
-                            <img src="my_images/city_latitude_vs_humidity.png" alt="Lat. vs Temp." width="100" height="100" align="top" />
-                            <img src="my_images/city_latitude_vs_windspeed.png" alt="Lat. vs Temp." width="100" height="100" align="bottom" />
-                        </div>
-                    </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-white"> <!--style="width: 30%">-->
+            <div class="card-body">
+            <h3 class="card-title" align="center">Visualizations</h3>
+              <div class="card border-white">
+                <div class="card-body" align="center">
+                <p class="card-title" align="center">Max Temperature</p>             
+                <a href="lat_vs_temp.html"><img src="my_images/latitude_vs_max_temperature.png" alt="Lat. vs Temp." width="150" height="150"></a>
                 </div>
+            </div>
+            <div class="card border-white">
+                <div class="card-body" align="center">
+                <p class="card-title" align="center">Cloudiness</p>    
+                <a href="lat_vs_cloud.html"><img src="my_images/city_latitude_vs_cloudiness.png" alt="Lat. vs Temp." width="150" height="150"></a>
+                </div>
+            </div>
+                <br />
+            <div class="card border-white">
+                <div class="card-body" align="center">
+                <p class="card-title" align="center">Humidity</p>
+                <a href="lat_vs_humid.html"><img src="my_images/city_latitude_vs_humidity.png" alt="Lat. vs Temp." width="150" height="150"></a>
+                </div>
+            </div>
+            <div class="card border-white">
+                <div class="card-body" align="center">
+                <p class="card-title" align="center">Wind Speed</p>
+                <a href="lat_vs_wind.html"><img src="my_images/city_latitude_vs_windspeed.png" alt="Lat. vs Temp." width="150" height="150"></a>
+                </div>
+            </div>  
+            
+            </div>                  
+          </div>
+        </div>
+      </div>                
+    </div>
+        </div>
+        </div>
+    </div>
+                
 
                 
     <!-- These three script src lines make the javascript work -->
