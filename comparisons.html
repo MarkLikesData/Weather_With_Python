@@ -19,14 +19,15 @@
         <div class="navbar-brand">
             <i class="fas fa-chess-rook"></i><a href="index.html">  MAK WeatherPy</a>
         </div>
-        <div class="navbar-collapse collapse justify-content-end" id="the_menu"><!-- <i class="fas fa-bars"></i>> -->
+        <button class="btn btn-outline-primary navbar-toggler" data-toggle="collapse" data-target="#the_menu"><i class="fas fa-bars"></i></button>
+        <div class="navbar-collapse collapse justify-content-end" id="the_menu">
             <div class="dropdown">
                 <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Plots</button>        
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="nav-link" href="lat_vs_cloud.html">Cloudiness</a>
                     <a class="nav-link" href="lat_vs_humid.html">Humidity</a>
                     <a class="nav-link" href="lat_vs_temp.html">Temperature</a>
-                    <a class="nav-link" href="lat_vs_wind.html">Windspeed</a>
+                    <a class="nav-link" href="lat_vs_wind.html">Wind Speed</a>
                 </div>
             </div>
             <a class="nav-link" href="comparisons.html">Comparisons</a>
@@ -34,9 +35,8 @@
         </div>
     </header>
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <!-- Adjust column widths as necessary for each page -->
             <div class="col-md-12">
                 <h1>Comparison: Latitude vs X</h1>
                 <p class="page_description">

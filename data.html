@@ -19,14 +19,15 @@
         <div class="navbar-brand">
             <i class="fas fa-chess-rook"></i><a href="index.html">  MAK WeatherPy</a>
         </div>
-        <div class="navbar-collapse collapse justify-content-end" id="the_menu"><!-- <i class="fas fa-bars"></i>> -->
+        <button class="btn btn-outline-primary navbar-toggler" data-toggle="collapse" data-target="#the_menu"><i class="fas fa-bars"></i></button>
+        <div class="navbar-collapse collapse justify-content-end" id="the_menu">
             <div class="dropdown">
                 <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Plots</button>        
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="nav-link" href="lat_vs_cloud.html">Cloudiness</a>
                     <a class="nav-link" href="lat_vs_humid.html">Humidity</a>
                     <a class="nav-link" href="lat_vs_temp.html">Temperature</a>
-                    <a class="nav-link" href="lat_vs_wind.html">Windspeed</a>
+                    <a class="nav-link" href="lat_vs_wind.html">Wind Speed</a>
                 </div>
             </div>
             <a class="nav-link" href="comparisons.html">Comparisons</a>
@@ -34,22 +35,22 @@
         </div>
     </header>
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
                 <h3>Data</h3>
 
                 <!-- <table class="table table-bordered table-hover table-condensed " href="weather_py_data.html"></table> -->
                 <table class="table table-bordered table-hover table-condensed table-striped table-dark">
-                    <thead><tr><th title="Field #1">FIELD1</th>
-                    <th title="Field #2">lat</th>
-                    <th title="Field #3">lng</th>
-                    <th title="Field #4">city</th>
-                    <th title="Field #5">country</th>
-                    <th title="Field #6">temp_max</th>
-                    <th title="Field #7">humidity</th>
-                    <th title="Field #8">wind_speed</th>
-                    <th title="Field #9">cloudiness</th>
+                    <thead><tr><th title="Field #1">Index</th>
+                    <th title="Field #2">Latitude</th>
+                    <th title="Field #3">Longitude</th>
+                    <th title="Field #4">City</th>
+                    <th title="Field #5">Country</th>
+                    <th title="Field #6">Max Temperature</th>
+                    <th title="Field #7">Humidity</th>
+                    <th title="Field #8">Wind Speed</th>
+                    <th title="Field #9">Cloudiness</th>
                     <th title="Field #10">Date</th>
                     </tr></thead>
                     <tbody><tr>
