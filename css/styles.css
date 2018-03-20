@@ -15,7 +15,7 @@ body {
 /* classes---classes---classes---classes---classes---classes---classes---classes---classes */
 /* --------------------------------------------------------------------------------------- */
 
-/* Lines 11-35 set properties of cards in Visualizations grid appearing on right side of various pages */
+/* Lines 11-56 set properties of cards in Visualizations grid appearing on right side of various pages */
 .card {
   border: 5px;
   border-color: gray;
@@ -39,7 +39,7 @@ body {
 }
 .card-img-top {
   margin-bottom: 5px;
-  margin-left: 5px;
+  margin-left: 0px;
   margin-right: 5px;
   margin-top: 5px;
   border-color: red;
